@@ -1,10 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,800;1,100;1,200;1,300;1,400;1,600;1,700&display=swap');
 
 html, body {
     margin: 0;
     padding: 0;
 }
 
+/* Partie pour le header */
+header {
+    margin: 0px auto 0px auto;
+    width: 60%;
+    font-family: 'Montserrat';
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+header nav ul li a {
+    font-size: 1rem;
+    color: #000;
+    background-color: #FFF;
+    text-decoration: none;
+    margin: 0;
+    padding: 10px 20px 10px 20px;
+}
+header nav ul li a:visited {
+    color: #000;
+}
+header nav ul li a.pageActu {
+    color: #5a47ab;
+}
+header nav ul li a:hover {
+    border-bottom: 2px solid #000;
+}
+
+/* partir pour l'affichage des articles dans index.html */
 .article-preview {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

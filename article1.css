@@ -1,18 +1,34 @@
 /* Css gérée par Océane(Lunarora) */
 h1{color: #D05270;
     font-family: 'Abril Fatface', cursive;
+    margin-left: auto;
+    margin-right: auto;
+    width: 21.6cm;
+    margin-top: 1.1cm;
+    margin-bottom: 1.1cm;
     }
 
 h2{color: #3A0CA3;
-  font-family: 'Montserrat', sans-serif;}
+  font-family: 'Montserrat', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 21.6cm;
+    margin-top: 1.1cm;
+    margin-bottom: 1.1cm;}
 h3{color: #3A0CA3;
-  font-family: 'Montserrat', sans-serif;}
+  font-family: 'Montserrat', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 21.6cm;
+    margin-top: 1.1cm;
+    margin-bottom: 1.1cm;  }
 
 p.description{font-family: "Montserrat", cursive;
 margin-left: auto;
 margin-right: auto;
 text-align: justify;
-width: 22cm;
+width: 21.6cm;
+margin-top: 1cm;
 }
 .Photo{
     display: block;

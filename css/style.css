@@ -14,6 +14,11 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
+header img {
+    margin-left: -45px;
+}
+
 nav ul {
     display: flex;
     flex-direction: row;
@@ -43,7 +48,7 @@ header nav ul li a:hover {
 .article-preview {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: auto;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -76,10 +81,104 @@ header nav ul li a:hover {
     font-weight: 600;
     background-image: linear-gradient(to right, #d35e7c 75%, transparent 50%);
     background-position: 0 110%;
-    background-size: 100% 4px;
+    background-size: 100% 2px;
     background-repeat: no-repeat;
 }
 
 .article a {
     text-decoration: none;
 }
+
+footer {
+    padding-top: 50px;
+}
+
+/* animation article */
+
+.article-preview-index-1 {
+    animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+.article-preview-index-2 {
+    animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+
+.article-preview-index-3 {
+    animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation-delay: 600ms;
+}
+
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+.article-preview-index-4 {
+    animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation-delay: 600ms;
+}
+
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+
+.article-preview-index-5 {
+    animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+
+.article-preview-index-6 {
+    animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

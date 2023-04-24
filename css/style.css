@@ -39,6 +39,7 @@ header nav ul li a:visited {
 }
 header nav ul li a.pageActu {
     color: #5a47ab;
+    font-weight: bold;
 }
 header nav ul li a:hover {
     border-bottom: 2px solid #000;

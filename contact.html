@@ -29,23 +29,28 @@
             font-size: 1rem;
             margin: 5px 0 5px 0;
         }
-        section form div.contact {
+        section form div.contactRow {
             display: flex;
             flex-direction: row;
             align-items: center;
         }
-        section form div.contact input.contact {
+        section form div.contactRow input.contact {
             border: 1px solid black;
             background-color: #CCCCCC;
+            width: 325px;
             border-radius: 3px;             
         }
-        section form div.contact textarea.contact {
+        section form div.contactRow textarea.contact {
+            font-size: 1rem;
+            margin: 5px 0 5px 0;
             border: 1px solid black;
             background-color: #CCCCCC;
-            border-radius: 3px;           
+            border-radius: 3px;
+            width: 325px;
+            height: 150px;          
         }
 
-        section form div.contact .error {
+        section form div.contactRow .error {
             color: red;
             margin: 5px 0px 5px 25px;
             visibility: hidden;
@@ -61,25 +66,25 @@
                 <fieldset class="contact">
                     <legend class="contact">Laissez moi un message</legend>
                     <p>Veuillez remplir le formulaire. Tous les champs sont obligatoires.</p>
-                    <div class="contact">
+                    <div class="contactRow">
                         <label for="prenom" class="contact">Prénom : </label>
                         <input type="text" id="prenom" name="prenom" maxlength="150" size="30" class="contact">
                         <span class="error prenomError">Le prénom n'est pas valide.</span>
                     </div>
 
-                    <div class="contact">
+                    <div class="contactRow">
                         <label for="nom" class="contact">Nom : </label>
                         <input type="text" id="nom" name="nom" maxlength="150" size="30" class="contact">
                         <span class="error nomError">Le nom n'est pas valide.</span>
                     </div>
 
-                    <div class="contact">
+                    <div class="contactRow">
                         <label for="email" class="contact">Email : </label>
                         <input type="email" id="email" name="email" maxlength="150" size="30" class="contact">
                         <span class="error emailError">L'email n'est pas valide.</span>
                     </div>
 
-                    <div class="contact">
+                    <div class="contactRow">
                         <label for="commentaire" class="contact">Votre commentaire : </label>
                         <textarea id="commentaire" name="commentaire" class="contact"></textarea>
                         <span class="error commentaireError">Le message n'est pas valide.</span>
@@ -91,76 +96,6 @@
             </form>
         </section>
     </main>
-    <script>
-        // submitButton = document.querySelector('.submitButton');
-        // submitButton.addEventListener('click',checkForm);
-        patternEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-
-        function css(element, style) {
-            for (const property in style)
-                element.style[property] = style[property];
-             return;
-        }
-
-        function checkForm() {
-            console.log('dans checkForm');
-            prenom=document.getElementById('prenom');
-            nom=document.getElementById('nom');
-            email=document.getElementById('email');
-            commentaire=document.getElementById('commentaire');
-            error=false;
-
-            if (prenom.value=='' || prenom.value.length>150) {
-                css(document.querySelector('.prenomError'),{
-                    'visibility': 'visible'
-                });
-                error=true;
-            } else {
-                css(document.querySelector('.prenomError'),{
-                    'visibility': 'hidden'
-                });              
-            }
-
-            if (nom.value=='' || nom.value.length>150) {
-                css(document.querySelector('.nomError'),{
-                    'visibility': 'visible'
-                });
-                error=true;
-            } else {
-                css(document.querySelector('.nomError'),{
-                    'visibility': 'hidden'
-                });             
-            }
-
-            if (email.value=='' || nom.value.length>30 || email.value.match(patternEmail)== null) {
-                css(document.querySelector('.emailError'),{
-                    'visibility': 'visible'
-                });
-                error=true;
-            } else {
-                css(document.querySelector('.emailError'),{
-                    'visibility': 'hidden'
-                });
-            }
-
-            if (commentaire.value=='' || commentaire.value.length>150) {
-                css(document.querySelector('.commentaireError'),{
-                    'visibility': 'visible'
-                });
-                error=true;
-            } else {
-                css(document.querySelector('.commentaireError'),{
-                    'visibility': 'hidden'
-                });
-            }
-            if (error) {
-                event.preventDefault();
-                return false;
-            }
-
-            return true;
-        }
-        
-        </script>
+    <script src="js/contact.js"></script>
 </body>
 </html>

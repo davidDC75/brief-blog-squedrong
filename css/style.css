@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,800;1,100;1,200;1,300;1,400;1,600;1,700&display=swap');
 
-html, body {
+html, body, main {
     margin: 0;
     padding: 0;
+    font-family: "Montserrat", sans-serif;
 }
 
 /* Partie pour le header */
@@ -183,3 +184,112 @@ footer {
       opacity: 1;
     }
   }
+
+
+/* partie pour a propos */
+.a_propos {
+  margin: 0px auto 0px auto;
+  padding: 0px;
+}
+h1 {
+  color:#D05270 ;
+  font-family: "Abril Fatface", cursive;
+  font-size: 3.5rem;
+  font-weight:400;
+  margin: 0;
+}
+p.apropos {
+  font-size: 1rem;
+  color: #000;
+  margin: 0px auto 10px auto;
+}
+
+.a_propos{
+  display: flex;
+  margin-right: 20%;
+  gap: 10px;
+  align-items: center;
+
+}
+
+.introduct{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 10px;
+  margin-left: 20%;
+  margin-top: 3%;
+  padding-right: 10%;
+}
+
+.a_propos img {
+  float:left;
+  height:80px;
+  margin-right: 5px;
+}
+.introduct span.signature {
+  display: block;
+  font-size: 1em;
+  font-style: italic;
+  text-align: end;
+  margin: 0px 20px 10px 0px;
+}
+
+.bouttons{
+  display: flex;
+  gap:10px
+}
+.bouttons button{
+border: none;
+}
+
+img.boutons_logo{
+  height:20px
+}
+
+button.twitter{
+  background-color: #03A9F4;
+  border: none;
+  color: white;
+  width: 130px;
+  height: 40px;
+  font-size: 0.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+
+}
+
+button span{
+  padding-left: 15px;
+}
+
+button.linkedin{
+  background-color: #007AB9;
+  border: none;
+  color: white;
+  width: 130px;
+  height: 40px;
+  font-size: 0.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button.medium{
+  background-color: #000000;
+  border: none;
+  color: white;
+  width: 130px;
+  height: 40px;
+  font-size: 0.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.illustration img{
+  height: 350px;
+}

@@ -28,6 +28,14 @@ h2 {
     padding-bottom: 20px;
 }
 
+h3 {
+    color:#D05270;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
 /* Css gérée par Océane(Lunarora) */
 h4 {
     color: #D05270;
@@ -57,13 +65,6 @@ h6 {
     margin-bottom: 1.1cm;
 }
 
-h3 {
-    color:#D05270;
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin: 0;
-    padding: 0;
-}
 /* Partie pour le header */
 header {
     margin: 0px auto 0px auto;
@@ -78,7 +79,7 @@ header img {
     margin-left: -45px;
 }
 
-nav ul {
+header nav ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
@@ -86,7 +87,7 @@ nav ul {
     margin: 0;
 }
 
-ul li a{
+header nav ul li a{
     font-size: 1rem;
     color: #000;
     text-decoration: none;
@@ -100,7 +101,7 @@ ul li a{
 
 }
 
-ul li a::before{
+header nav ul li a::before{
     content: '';
     position: absolute;
     top: 0;
@@ -113,7 +114,7 @@ ul li a::before{
     z-index: -1;
 }
 
-ul li a:hover::before{
+header nav ul li a:hover::before{
     width: 100%;
 }
 
@@ -396,4 +397,92 @@ button.medium{
 
 .illustration img{
     height: 350px;
+}
+
+
+ /* The Modal (background) */
+ .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+/* Régle pour formulaire de contact */
+form {
+    width: 80%;
+    margin: 10px auto 10px auto;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    margin: 0px auto 0px auto;
+}
+
+label.contact {
+    display: block;
+    width: 200px;
+    float: left;
+}
+
+input.contact {
+    font-size: 1rem;
+    margin: 5px 0 5px 0;
+}
+
+section form div.contactRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+section form div.contactRow input.contact {
+    border: 1px solid black;
+    background-color: #CCCCCC;
+    width: 325px;
+    border-radius: 3px;
+}
+
+section form div.contactRow textarea.contact {
+    font-size: 1rem;
+    margin: 5px 0 5px 0;
+    border: 1px solid black;
+    background-color: #CCCCCC;
+    border-radius: 3px;
+    width: 325px;
+    height: 150px;
+}
+
+section form div.contactRow .error {
+    color: red;
+    margin: 5px 0px 5px 25px;
+    visibility: hidden;
 }

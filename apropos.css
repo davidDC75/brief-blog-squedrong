@@ -1,0 +1,108 @@
+body, html {
+    font-family: "Montserrat";
+    margin:0;
+    padding:0;
+}
+.a_propos {
+    margin: 0px auto 0px auto;
+}
+h1 {
+     color:#D05270 ;
+    font-family:'Abril Fatface', cursive;
+    font-weight:400 ;
+}
+p.apropos {
+    font-size: 0.7em;
+    color: #000;
+    margin: 0px auto 10px auto;
+}
+
+.a_propos{
+    display: flex;
+    margin-right: 20%;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.introduct{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+    margin-left: 20%;
+    margin-top: 3%;
+    padding-right: 10%;
+}
+
+.a_propos img {
+    float:left;
+    height:80px;
+    margin-right: 5px;
+}
+.introduct span.signature {
+    display: block;
+    font-size: 1em;
+    font-style: italic;
+    text-align: end;
+    margin: 0px 20px 10px 0px;
+}
+
+.bouttons{
+    display: flex;
+    gap:10px
+}
+.bouttons button{
+ border: none;
+}
+
+img.boutons_logo{
+    height:20px
+}
+
+button.twitter{
+    background-color: #03A9F4;
+    border: none;
+    color: white;
+    width: 130px;
+    height: 40px;
+    font-size: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+button span{
+    padding-left: 15px;
+}
+
+button.linkedin{
+    background-color: #007AB9;
+    border: none;
+    color: white;
+    width: 130px;
+    height: 40px;
+    font-size: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.medium{
+    background-color: #000000;
+    border: none;
+    color: white;
+    width: 130px;
+    height: 40px;
+    font-size: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.illustration img{
+    height: 350px;
+  }

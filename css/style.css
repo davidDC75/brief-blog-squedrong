@@ -120,28 +120,30 @@ height: 350px;
 }
 
 .intro{
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  gap: 10px;
-  margin-left: 20%;
-  margin-top: 3%;
-  padding-right: 10%;
-
-
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+    margin-left: 20%;
+    margin-top: 3%;
+    padding-right: 10%;
 }
 
 .bouttons{
-  display: flex;
-  gap:10px
+    display: flex;
+    gap:10px
 }
 .bouttons button{
-border: none;
+    cursor: pointer;
+    border: none;
+}
+.bouttons a {
+    text-decoration: none;
 }
 
 p.trois{
-  margin: 0;
-  padding: 0px 0px 20px 0px
+    margin: 0;
+    padding: 0px 0px 20px 0px
 }
 
 img.boutons_logo{

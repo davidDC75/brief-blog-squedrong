@@ -485,3 +485,7 @@ section form div.contactRow .error {
     margin: 5px 0px 5px 25px;
     visibility: hidden;
 }
+
+section form div.contactRow span.error {
+    color: red;
+}

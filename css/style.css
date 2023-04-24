@@ -78,11 +78,12 @@ header nav ul li a:hover {
 }
 
 /* Pour la partir introduction */
-.principale{
+.principale {
   display: flex;
   margin-right: 20%;
   gap: 10px;
   align-items: flex-start;
+  margin-bottom: 100px;
 }
 
 .illustration img{
@@ -153,7 +154,7 @@ img.boutons_logo{
     font-weight: normal;
     background-image: linear-gradient(to right, #d35e7c 75%, transparent 50%);
     background-position: 0 110%;
-    background-size: 100% 4px;
+    background-size: 100% 2px;
     background-repeat: no-repeat;
 }
 

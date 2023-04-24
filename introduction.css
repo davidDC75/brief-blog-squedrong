@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.principale{
+    display: flex;
+    margin-right: 20%;
+    gap: 10px;
+}
+
+.illustration img{
+    width:100%
+    
+
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+    margin-left: 20%;
+    margin-top: 3%;
+
+}
+
+.une{
+    color:#D05270 ;
+    font-family:'Abril Fatface', cursive;
+    font-weight:400 ;
+}
+
+h2{
+    font-weight: 600;
+}
+
+bouttons{
+    border: none;
+}
+
+

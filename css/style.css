@@ -85,13 +85,35 @@ nav ul {
     padding: 0;
     margin: 0;
 }
-header nav ul li a {
-    font-size: 1rem;
-    color: #000;
-    background-color: #FFF;
-    text-decoration: none;
-    margin: 0;
-    padding: 10px 20px 10px 20px;
+
+ul li a{
+  font-size: 1rem;
+  color: #000;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px 20px 10px 20px;
+  /* border: 2px solid black;
+  border-radius: 10px; */
+  cursor: pointer;
+  position: relative;
+  transition: all .4s;
+
+}
+ul li a::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0px;
+  background-color: #D05270;
+  /* border-radius: 10px; */
+  transition: all 0.4s;
+   z-index: -1;
+
+}
+ul li a:hover::before{
+width: 100%;
 }
 header nav ul li a:visited {
     color: #000;
@@ -99,9 +121,6 @@ header nav ul li a:visited {
 header nav ul li a.pageActu {
     color: #5a47ab;
     font-weight: bold;
-}
-header nav ul li a:hover {
-    border-bottom: 2px solid #000;
 }
 
 /* Pour la partir introduction */
@@ -115,7 +134,7 @@ header nav ul li a:hover {
 
 .illustration img{
 height: 350px;
-  
+
 
 }
 

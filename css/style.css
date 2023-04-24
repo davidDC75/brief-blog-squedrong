@@ -39,12 +39,12 @@ header nav ul li a:hover {
     border-bottom: 2px solid #000;
 }
 
-/* partir pour l'affichage des articles dans index.html */
+/* partie pour l'affichage des articles dans index.html */
 .article-preview {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 10px;
+    grid-column-gap: 30px;
     grid-row-gap: 30px;
     font-family: 'Montserrat', sans-serif;
     width: 60%;
@@ -72,6 +72,14 @@ header nav ul li a:hover {
 
 .view-more {
     color: #d35e7c;
-    font-weight: bold;
     font-size: 20px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #d35e7c 75%, transparent 50%);
+    background-position: 0 110%;
+    background-size: 100% 4px;
+    background-repeat: no-repeat;
+}
+
+.article a {
+    text-decoration: none;
 }

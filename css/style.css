@@ -28,14 +28,33 @@ h2 {
   padding-bottom: 20px;
 }
 
-/* Partie pour le header */
-header {
-    margin: 0px auto 0px auto;
-    width: 60%;
-    font-family: 'Montserrat';
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
+/* Css gérée par Océane(Lunarora) */
+h4 {
+  color: #D05270;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 2.6rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.1cm;
+  margin-bottom: 1.1cm;
+}
+
+h5 {
+    color: #3A0CA3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.1cm;
+    margin-bottom: 1.1cm;
+}
+
+h6 {
+    color: #3A0CA3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    margin-top: 1.1cm;
+    margin-bottom: 1.1cm;
 }
 
 h3 {
@@ -45,7 +64,15 @@ h3 {
   margin: 0;
   padding: 0;
 }
-
+/* Partie pour le header */
+header {
+    margin: 0px auto 0px auto;
+    width: 60%;
+    font-family: 'Montserrat';
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 header img {
     margin-left: -45px;
@@ -255,7 +282,6 @@ footer {
       opacity: 1;
     }
   }
-
 
 /* partie pour a propos */
 .a_propos {

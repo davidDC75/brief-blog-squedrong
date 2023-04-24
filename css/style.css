@@ -170,7 +170,7 @@ img.boutons_logo{
   height:20px
 }
 
-/* partie pour l'affichage des articles dans index.html */
+/* partie pour l'affichage de la liste des articles dans index.html */
 .article-preview {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -482,7 +482,6 @@ section form div.contactRow textarea.contact {
 }
 
 section form div.contactRow .error {
-    color: red;
     margin: 5px 0px 5px 25px;
     visibility: hidden;
 }

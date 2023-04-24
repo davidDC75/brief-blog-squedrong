@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.article-preview {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 30px;
+    font-family: 'Montserrat', sans-serif;
+    width: 60%;
+    margin: 0px auto 0px auto;
+}
+
+.article-preview img {
+    width: 100%;
+}
+
+.post-date {
+    color: #424242;
+    font-weight: bold;
+}
+
+.article-title {
+    color: #d35e7c;
+    font-weight: bold;
+}
+
+.article-description {
+    color: #424242;
+    font-size: larger;
+}
+
+.view-more {
+    color: #d35e7c;
+    font-weight: bold;
+    font-size: 20px;
+}

@@ -6,6 +6,28 @@ html, body, main {
     font-family: "Montserrat", sans-serif;
 }
 
+section {
+  padding: 0;
+  margin: 0 auto 50px auto;
+}
+
+h1 {
+  color:#D05270 ;
+  font-family: "Abril Fatface", cursive;
+  font-size: 3rem;
+  font-weight:400;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: #333333;
+  font-weight: 400;
+  font-size: 3rem;
+  margin:0;
+  padding-bottom: 20px;
+}
+
 /* Partie pour le header */
 header {
     margin: 0px auto 0px auto;
@@ -15,6 +37,15 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
+h3 {
+  color:#D05270;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
 
 header img {
     margin-left: -45px;
@@ -46,6 +77,49 @@ header nav ul li a:hover {
     border-bottom: 2px solid #000;
 }
 
+/* Pour la partir introduction */
+.principale{
+  display: flex;
+  margin-right: 20%;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.illustration img{
+height: 350px;
+  
+
+}
+
+.intro{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 10px;
+  margin-left: 20%;
+  margin-top: 3%;
+  padding-right: 10%;
+
+
+}
+
+.bouttons{
+  display: flex;
+  gap:10px
+}
+.bouttons button{
+border: none;
+}
+
+p.trois{
+  margin: 0;
+  padding: 0px 0px 20px 0px
+}
+
+img.boutons_logo{
+  height:20px
+}
+
 /* partie pour l'affichage des articles dans index.html */
 .article-preview {
     display: grid;
@@ -54,7 +128,7 @@ header nav ul li a:hover {
     grid-column-gap: 30px;
     grid-row-gap: 30px;
     font-family: 'Montserrat', sans-serif;
-    width: 60%;
+    width: 70%;
     margin: 0px auto 0px auto;
 }
 
@@ -64,26 +138,22 @@ header nav ul li a:hover {
 
 .post-date {
     color: #424242;
-    font-weight: bold;
-}
-
-.article-title {
-    color: #d35e7c;
-    font-weight: bold;
+    font-size: 0.8rem;
+    font-weight: 600;
 }
 
 .article-description {
     color: #424242;
-    font-size: larger;
+    font-size: 0.8rem;
 }
 
 .view-more {
-    color: #d35e7c;
-    font-size: 20px;
-    font-weight: 600;
+    color: #D05270;
+    font-size: 0.8rem;
+    font-weight: normal;
     background-image: linear-gradient(to right, #d35e7c 75%, transparent 50%);
     background-position: 0 110%;
-    background-size: 100% 2px;
+    background-size: 100% 4px;
     background-repeat: no-repeat;
 }
 
@@ -188,28 +258,17 @@ footer {
 
 /* partie pour a propos */
 .a_propos {
-  margin: 0px auto 0px auto;
+  margin: 0px 20% 0px auto;
   padding: 0px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
-h1 {
-  color:#D05270 ;
-  font-family: "Abril Fatface", cursive;
-  font-size: 3.5rem;
-  font-weight:400;
-  margin: 0;
-}
+
 p.apropos {
   font-size: 1rem;
   color: #000;
   margin: 0px auto 10px auto;
-}
-
-.a_propos{
-  display: flex;
-  margin-right: 20%;
-  gap: 10px;
-  align-items: center;
-
 }
 
 .introduct{

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,50 +8,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,800;1,100;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,800;1,100;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>À propos du blog de Squedrong</title>
-    <style>
-        body, html {
-            font-family: "Montserrat";
-            margin:0;
-            padding:0;
-        }
-        main {
-            margin: 0px auto 0px auto;
-        }
-        h1 {
-            font-family: "Abril Fatface", cursive;
-            font-size: 3.5rem;
-            color: #D05270;
-        }
-        p.apropos {
-            font-size: 1em;
-            color: #000;
-            margin: 0px auto 10px auto;
-        }
-        main img {
-            float:left;
-            height:80px;
-        }
-        main span.signature {
-            display: block;
-            font-size: 1em;
-            font-style: italic;
-            text-align: end;
-            margin: 0px 150px 10px 0px;
-        }
-    </style>
 </head>
+
 <body>
+    <header>
+        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+        <nav>
+            <ul>
+            <li><a href="index.html">BLOG</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="apropos.html" class="pageActu">A PROPOS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
-        <h1>À propos de moi</h1>
-        <img src="images/squedrong.PNG" alt="photo de squedrong">
-        <p class="apropos">Bonjour et bienvenue sur mon blog ! Je m'appelle Squedrong et je suis un passionné de web design. Depuis que j'ai découvert cet univers fascinant, j'ai décidé de consacrer mon temps et mon énergie à en apprendre toujours plus sur les dernières tendances et les meilleures pratiques.</p>
-        <p class="apropos">Je suis convaincu que le web design est une discipline à la fois créative et technique, qui demande à la fois de la rigueur et de l'imagination. Pour moi, il s'agit avant tout de créer des expériences utilisateur uniques et mémorables, qui répondent aux besoins et aux attentes des internautes.</p>
-        <p class="apropos">Dans ce blog, j'ai pour ambition de partager avec vous mes connaissances et mes réflexions sur le web design. J'espère que vous trouverez ici des informations utiles et inspirantes, qui vous aideront à créer des sites web exceptionnels et à vous démarquer dans ce domaine en constante évolution.</p>
-        <p class="apropos">Merci de votre visite et n'hésitez pas à me contacter si vous avez des questions ou des suggestions pour mon blog !</p>
-        <span class="signature">squedrong</span>
+        <div class="a_propos">
+            <div class="introduct">
+                <h1>À propos de moi</h1>
+
+                <p class="apropos"> <img src="images/squedrong.PNG" alt="photo de squedrong">Bonjour et bienvenue sur mon
+                    blog ! Je m'appelle Squedrong et je suis un passionné de web design. Depuis que j'ai découvert cet
+                    univers fascinant, j'ai décidé de consacrer mon temps et mon énergie à en apprendre toujours plus sur
+                    les dernières tendances et les meilleures pratiques.</p>
+                <p class="apropos">Je suis convaincu que le web design est une discipline à la fois créative et technique,
+                    qui demande à la fois de la rigueur et de l'imagination. Pour moi, il s'agit avant tout de créer des
+                    expériences utilisateur uniques et mémorables, qui répondent aux besoins et aux attentes des
+                    internautes.</p>
+                <p class="apropos">Dans ce blog, j'ai pour ambition de partager avec vous mes connaissances et mes
+                    réflexions sur le web design. J'espère que vous trouverez ici des informations utiles et inspirantes,
+                    qui vous aideront à créer des sites web exceptionnels et à vous démarquer dans ce domaine en constante
+                    évolution.</p>
+                <p class="apropos">Merci de votre visite et n'hésitez pas à me contacter si vous avez des questions ou des
+                    suggestions pour mon blog !</p>
+                <span class="signature">squedrong</span>
+
+
+                <div class="bouttons">
+                    <button class="twitter"><img src="images/twitter.PNG" alt=""
+                            class="boutons_logo"><span>TWITTER</span></button>
+                    <button class="linkedin"><img src="images/linkedin.PNG" alt=""
+                            class="boutons_logo"><span>LINKEDIN</span></button>
+                    <button class="medium"><img src="images/medium.PNG" alt=""
+                            class="boutons_logo"><span>MEDIUM</span></button>
+                </div>
+            </div>
+            <div class="illustration">
+                <img class="box quatre" src="images/illustration.png" alt="illustration">
+            </div>
+        </div>
     </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>

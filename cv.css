@@ -8,7 +8,6 @@ body {
     background-image:  url(images/luca-bravo-XJXWbfSo2f0-unsplash.jpg)  
     ; background-size: cover ;
     margin: 15%;
-    padding: auto;
 }
 h1 {
     font-family: "Montserrat", cursive;
@@ -17,3 +16,4 @@ h1 {
     color: white;
     text-align: center;
 }
+img {border-radius: 50%;}

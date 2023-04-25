@@ -7,8 +7,8 @@ body {
     padding: 65px;
     background-image:  url(images/luca-bravo-XJXWbfSo2f0-unsplash.jpg)  
     ; background-size: cover ;
-    margin-left: 3cm;
-    margin-right: 3cm;
+    margin: 15%;
+    padding: auto;
 }
 h1 {
     font-family: "Montserrat", cursive;

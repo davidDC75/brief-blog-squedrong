@@ -164,14 +164,7 @@ header nav ul li a.pageActu {
     background-repeat: no-repeat;
 }
 
-
-
-footer {
-    padding-top: 50px;
-}
-
 /* animation article */
-
 .article-preview-index-1 {
     animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
@@ -427,16 +420,3 @@ section form div.contactRow .error {
 section form div.contactRow span.error {
     color: red;
 }
-
-.footer_legal_group ul {
-    display: flex;
-    flex-direction: column;
-  }
-  .footer_contact_group ul {
-    display: flex;
-    flex-direction: column;
-  }
-  .footer_recrutement_group ul {
-    display: flex;
-    flex-direction: column;
-  }

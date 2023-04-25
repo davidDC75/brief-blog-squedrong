@@ -1,3 +1,5 @@
+
+/* CSS fait par Océane */
 body {
     font-family: "Montserrat", cursive;
     margin: 0;
@@ -11,13 +13,16 @@ body {
     
     margin-bottom: 0.5em;
 }
-h1 {
+.banniere h1{
     font-family: "Montserrat", cursive;
     font-weight: bolder;
     height: auto;
     color: white;
     text-align: center;
 }
-img {border-radius: 50%;
-    margin-left: 15%;
-    margin-top: 4%;}
+
+.PhotoCV {
+    margin-top: 4% ;
+    margin-bottom: 4%;
+    padding-left: 15%;
+}

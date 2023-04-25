@@ -395,6 +395,8 @@ button.medium{
     justify-content: center;
 }
 
+
+
 .illustration img{
     height: 350px;
 }
@@ -409,7 +411,7 @@ button.medium{
     top: 0;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
+    overflow: hidden; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   }
@@ -417,10 +419,18 @@ button.medium{
   /* Modal Content/Box */
   .modal-content {
     background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
+    margin: 5% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+  .centrer {
+    text-align: center;
+  }
+
+  .modal-content section {
+    margin: 10px auto 10px auto;
   }
 
   /* The Close Button */
@@ -440,8 +450,7 @@ button.medium{
 
 /* Régle pour formulaire de contact */
 form {
-    width: 80%;
-    margin: 10px auto 10px auto;
+    width: 60%;
     font-family: "Montserrat", sans-serif;
     font-size: 1rem;
     margin: 0px auto 0px auto;
@@ -449,13 +458,8 @@ form {
 
 label.contact {
     display: block;
-    width: 200px;
+    width: 20%;
     float: left;
-}
-
-input.contact {
-    font-size: 1rem;
-    margin: 5px 0 5px 0;
 }
 
 section form div.contactRow {
@@ -465,6 +469,8 @@ section form div.contactRow {
 }
 
 section form div.contactRow input.contact {
+    font-size: 1rem;
+    margin: 5px 0 5px 0;
     border: 1px solid black;
     background-color: #CCCCCC;
     width: 325px;

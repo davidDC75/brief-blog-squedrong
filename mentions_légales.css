@@ -1,0 +1,13 @@
+h1.mentions{
+    text-align: center;
+    
+}
+
+.légal{
+ 
+    margin-right: 20%;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-left: 230px;
+}

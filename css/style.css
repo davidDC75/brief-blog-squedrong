@@ -250,10 +250,6 @@ button.twitter{
     justify-content: center;
 }
 
-button span{
-    padding-left: 15px;
-}
-
 button.linkedin{
     background-color: #007AB9;
     border: none;
@@ -419,4 +415,52 @@ section form div.contactRow .error {
 
 section form div.contactRow span.error {
     color: red;
+}
+
+/* POUR LE FOOTER */
+footer div.placement {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer div.placement ul {
+    list-style: none;
+}
+
+footer div.placement ul.reseaux li.bouttons button {
+    display: block;
+    text-align: center;
+    height: 20px;
+    width: 80px;
+    cursor: pointer;
+    border: none;
+    background-color: #D05270;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    margin: 5px;
+    color: whitesmoke;
+}
+
+footer div.placement ul.reseaux li.bouttons a {
+    text-decoration: none;
+
+}
+
+footer {
+    margin-top: 20px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #D05270;
+}
+
+footer div.placement ul.mentionlegal li a {
+    color: whitesmoke;
+    display: block;
+    margin: 0px 0px 10px 0px;
+}
+
+footer div.placement ul.recrut li a {
+    color: whitesmoke;
+    display: block;
+    margin: 0px 0px 10px 0px; 
 }

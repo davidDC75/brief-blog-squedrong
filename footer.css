@@ -1,22 +1,18 @@
-.placement {
+footer div.placement {
     list-style: none;
     display: flex;
     justify-content: space-around;
 }
 
-ul {
+footer div.placement ul {
     list-style: none;
 }
 
-.bouttons {
-
-    display: flex;
-    gap: 15px;
-}
-
-.bouttons button {
+footer div.placement ul.reseaux li.bouttons button {
     cursor: pointer;
     border: none;
+    height: 20px;
+    width: 50px;
     background-color: #D05270;
     border: 1px solid whitesmoke;
     border-radius: 10px;
@@ -24,7 +20,7 @@ ul {
     color: whitesmoke;
 }
 
-.bouttons a {
+footer div.placement ul.reseaux li.bouttons a {
     text-decoration: none;
 
 }
@@ -34,12 +30,13 @@ footer {
     background-color: #D05270;
 }
 
-.mentionlegal li a {
+footer div.placement ul.mentionlegal li a {
     color: whitesmoke;
     display: block;
     margin: 0px 0px 10px 0px;
 }
-.recrut li a {
+
+footer div.placement ul.recrut li a {
     color: whitesmoke;
     display: block;
     margin: 0px 0px 10px 0px; 

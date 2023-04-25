@@ -3,10 +3,17 @@ body {
     margin: 0;
 }
 .banniere {
-    padding: 100px;
-    background-image: url(images/luca-bravo-XJXWbfSo2f0-unsplash.jpg);
+    margin-top: 1cm;
+    padding: 65px;
+    background-image:  url(images/luca-bravo-XJXWbfSo2f0-unsplash.jpg)  
+    ; background-size: cover ;
+    margin-left: 3cm;
+    margin-right: 3cm;
 }
 h1 {
+    font-family: "Montserrat", cursive;
+    font-weight: bolder;
+    height: auto;
     color: white;
     text-align: center;
 }

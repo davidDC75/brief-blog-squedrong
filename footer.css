@@ -18,9 +18,10 @@ ul {
     cursor: pointer;
     border: none;
     background-color: #D05270;
-    border: 1px solid black;
+    border: 1px solid whitesmoke;
     border-radius: 10px;
     margin: 5px;
+    color: whitesmoke;
 }
 
 .bouttons a {
@@ -29,6 +30,7 @@ ul {
 }
 
 footer {
+    border-radius: 10px 10px 0px 0px;
     background-color: #D05270;
 }
 

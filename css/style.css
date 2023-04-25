@@ -482,11 +482,15 @@ section form div.contactRow span.error {
     color: red;
 }
 
-footer {
-    margin: 0px auto 0px auto;
-      width: 70%;
-      font-family: 'Montserrat';
-      display:flex;
-      justify-content: space-between;
-      align-items: center
+.footer_legal_group ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer_contact_group ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer_recrutement_group ul {
+    display: flex;
+    flex-direction: column;
   }

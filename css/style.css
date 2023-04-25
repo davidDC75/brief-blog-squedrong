@@ -93,8 +93,6 @@ header nav ul li a{
     text-decoration: none;
     margin: 10px;
     padding: 10px 20px 10px 20px;
-    /* border: 2px solid black;
-    border-radius: 10px; */
     cursor: pointer;
     position: relative;
     transition: all .4s;
@@ -109,7 +107,6 @@ header nav ul li a::before{
     height: 100%;
     width: 0px;
     background-color: #D05270;
-    /* border-radius: 10px; */
     transition: all 0.4s;
     z-index: -1;
 }
@@ -153,6 +150,10 @@ header nav ul li a.pageActu {
     font-size: 0.8rem;
 }
 
+.article a {
+    text-decoration: none;
+}
+
 .view-more {
     color: #D05270;
     font-size: 0.8rem;
@@ -163,9 +164,7 @@ header nav ul li a.pageActu {
     background-repeat: no-repeat;
 }
 
-.article a {
-    text-decoration: none;
-}
+
 
 footer {
     padding-top: 50px;

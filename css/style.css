@@ -126,50 +126,6 @@ header nav ul li a.pageActu {
     font-weight: bold;
 }
 
-/* Pour la partir introduction */
-.principale {
-    display: flex;
-    margin-right: 20%;
-    gap: 10px;
-    align-items: flex-start;
-    margin-bottom: 100px;
-}
-
-.illustration img{
-    height: 350px;
-}
-
-.intro{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    gap: 10px;
-    margin-left: 20%;
-    margin-top: 3%;
-    padding-right: 10%;
-}
-
-.bouttons{
-    display: flex;
-    gap:10px
-}
-.bouttons button{
-    cursor: pointer;
-    border: none;
-}
-.bouttons a {
-    text-decoration: none;
-}
-
-p.trois{
-    margin: 0;
-    padding: 0px 0px 20px 0px
-}
-
-img.boutons_logo{
-  height:20px
-}
-
 /* partie pour l'affichage de la liste des articles dans index.html */
 .article-preview {
     display: grid;
@@ -343,18 +299,6 @@ p.apropos {
     margin: 0px 20px 10px 0px;
 }
 
-.bouttons{
-    display: flex;
-    gap:10px
-}
-.bouttons button{
-    border: none;
-}
-
-img.boutons_logo{
-    height:20px
-}
-
 button.twitter{
     background-color: #03A9F4;
     border: none;
@@ -395,7 +339,49 @@ button.medium{
     justify-content: center;
 }
 
+/* Pour la partir introduction */
+.principale {
+    display: flex;
+    margin-right: 20%;
+    gap: 10px;
+    align-items: flex-start;
+    margin-bottom: 100px;
+}
 
+.illustration img{
+    height: 350px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+    margin-left: 20%;
+    margin-top: 3%;
+    padding-right: 10%;
+}
+
+.bouttons{
+    display: flex;
+    gap: 15px;
+}
+.bouttons button{
+    cursor: pointer;
+    border: none;
+}
+.bouttons a {
+    text-decoration: none;
+}
+
+p.trois{
+    margin: 0;
+    padding: 0px 0px 20px 0px
+}
+
+img.boutons_logo {
+  height:20px;
+}
 
 .illustration img{
     height: 350px;

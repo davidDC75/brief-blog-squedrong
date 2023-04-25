@@ -8,4 +8,4 @@ Nous avons fait plusieurs cartes sur Trello et chacun a eu une ou deux à faire.
 
 ## Quelles-sont les difficultés que nous avons rencontré ?
 
-Nous n'avons pas eu de grosse difficulté. Quelques problèmes sont survenus mais rien d'insurmontable. Nous n'avons pas eu de conflit avec git vu que nous nous sommes bien organisé.
+Nous n'avons pas eu de grosse difficulté. Quelques problèmes sont survenus mais rien d'insurmontable. Nous n'avons pas eu de conflit avec git vu que nous nous sommes bien organisés.

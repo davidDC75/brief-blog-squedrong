@@ -1,0 +1,12 @@
+body {
+    font-family: "Montserrat", cursive;
+    margin: 0;
+}
+.banniere {
+    padding: 100px;
+    background-image: url(images/luca-bravo-XJXWbfSo2f0-unsplash.jpg);
+}
+h1 {
+    color: white;
+    text-align: center;
+}

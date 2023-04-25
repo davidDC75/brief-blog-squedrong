@@ -1,0 +1,44 @@
+.placement {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    list-style: none;
+}
+
+.bouttons {
+
+    display: flex;
+    gap: 15px;
+}
+
+.bouttons button {
+    cursor: pointer;
+    border: none;
+    background-color: #D05270;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.bouttons a {
+    text-decoration: none;
+
+}
+
+footer {
+    background-color: #D05270;
+}
+
+.mentionlegal li a {
+    color: whitesmoke;
+    display: block;
+    margin: 0px 0px 10px 0px;
+}
+.recrut li a {
+    color: whitesmoke;
+    display: block;
+    margin: 0px 0px 10px 0px; 
+}

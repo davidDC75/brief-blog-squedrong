@@ -29,4 +29,4 @@ Pour utiliser Le Blog de Squedrong, vous pouvez accéder à l'interface web à l
 
 ## Contact
 
-Si vous rencontrez le moindre probleme ou si vous avez simplement une question, vous pouvez nous contacter à l'adresse suivante : DavidAdrienOcéaneAntoine@briefCommun.com
+Si vous rencontrez le moindre probleme ou si vous avez simplement une question, vous pouvez nous contacter à l'adresse suivante : DavidAdrienOceaneAntoine@briefCommun.com

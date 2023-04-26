@@ -28,11 +28,6 @@
     margin-bottom: 10px;
     padding-left: 15%;
     margin-right: 21%;
-<<<<<<< HEAD:css/cv.css
-=======
-    
-  
->>>>>>> edccf2ae5722f7288994d9ff6aa86cea5bf29fc6:cv.css
 }
 
 .PhotoCV h2{
@@ -47,4 +42,9 @@
 
 p.description {
     text-align: justify;
+}
+
+.contenuCV {
+    width: 70%;
+    margin: 0 auto 0 auto;
 }

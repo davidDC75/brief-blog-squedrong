@@ -5,12 +5,14 @@ body {
     margin: 0;
 }
 .banniere {
+    padding: 90px;
     margin-top: 7%;
     margin-inline: 15%;
-    padding: 65px;
-    background-image:  url(images/article1.jpg)  
-    ; background-size: cover ;
-    
+    background-image:  url(images/article1.jpg);
+    background-position:top ;
+    max-width: 100%;
+    min-width:fit-content;
+    height: auto;
     margin-bottom: 0.5em;
 }
 .banniere h1{
@@ -39,6 +41,7 @@ body {
     float: right ;
     margin: 1%;
     text-align: justify;
+    ;
       
     
 }

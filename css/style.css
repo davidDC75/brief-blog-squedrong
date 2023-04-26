@@ -444,10 +444,12 @@ footer div.placement ul.mentionlegal li a {
   color: whitesmoke;
   display: block;
   margin: 0px 0px 10px 0px;
+  text-decoration: none;
 }
 
 footer div.placement ul.recrut li a {
   color: whitesmoke;
   display: block;
   margin: 0px 0px 10px 0px;
+  text-decoration: none;
 }

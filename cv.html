@@ -22,7 +22,37 @@
             </ul>
         </nav>
     </header>
-
+    <!-- POUR LE FORMULAIRE DE CONTACT -->
+    <div id="myModal" class="modal">
+        <section>
+            <span class="close">&times;</span>
+            <h4 class="centrer">Contactez moi</h4>
+            <form action="index.html" onsubmit="checkForm()" method="post" class="contact">
+                <p>Veuillez remplir le formulaire. Tous les champs sont obligatoires.</p>
+                <div class="contactRow">
+                    <label for="prenom" class="contact">Prénom : </label>
+                    <input type="text" id="prenom" name="prenom" maxlength="150" size="30" class="contact">
+                    <span class="error prenomError">Le prénom n'est pas valide.</span>
+                </div>
+                <div class="contactRow">
+                    <label for="nom" class="contact">Nom : </label>
+                    <input type="text" id="nom" name="nom" maxlength="150" size="30" class="contact">
+                    <span class="error nomError">Le nom n'est pas valide.</span>
+                </div>
+                <div class="contactRow">
+                    <label for="email" class="contact">Email : </label>
+                    <input type="email" id="email" name="email" maxlength="150" size="30" class="contact">
+                    <span class="error emailError">L'email n'est pas valide.</span>
+                </div>
+                <div class="contactRow">
+                    <label for="commentaire" class="contact">Votre commentaire : </label>
+                    <textarea id="commentaire" name="commentaire" class="contact"></textarea>
+                    <span class="error commentaireError">Le message n'est pas valide.</span>
+                </div>
+                <button type="submit" class="contact submitButton">Envoyer</button>
+            </form>
+        </section>
+    </div>
     <!-- Page fait par Océane(Lunarora) -->
     <main>
         <div class="banniere">

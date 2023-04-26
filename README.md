@@ -18,6 +18,7 @@ Suivi de conception :
 * Création d'un fichier css global (css qui concerne toute les pages).
 * Création des css unique (pour certaines pages uniquement).
 * Mise en place des fichiers JavaScript.
+* Récupération de la liste des articles depuis un fichier .json
 
 ## Quelles-sont les difficultés que nous avons rencontré ?
 

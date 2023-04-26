@@ -129,7 +129,6 @@ header nav ul li a.pageActu {
   grid-template-rows: auto;
   grid-column-gap: 30px;
   grid-row-gap: 30px;
-  font-family: "Montserrat", sans-serif;
   width: 70%;
   margin: 0px auto 0px auto;
 }

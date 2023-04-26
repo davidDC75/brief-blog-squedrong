@@ -1,0 +1,74 @@
+[
+    {
+        "image": "article1.jpg",
+        "lien":"article1.html", 
+    
+        "date": "13 JAN 2022",
+
+        "title": "Lorem ipsum dolor sit amet",
+
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mi facilisis libero sollicitudin vulputate. Mauris facilisis vestibulum nisi, at viverra arcu interdum id.",
+
+        "more": "EN SAVOIR PLUS"
+    },
+    {
+        "image": "article2.jpeg",
+        "lien":"article1.html", 
+    
+        "date": "13 JAN 2022",
+
+        "title": "Lorem ipsum dolor sit amet",
+
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mi facilisis libero sollicitudin vulputate. Mauris facilisis vestibulum nisi, at viverra arcu interdum id.",
+
+        "more": "EN SAVOIR PLUS"
+    },
+    {
+        "image": "article1.jpg",
+        "lien":"article1.html", 
+    
+        "date": "13 JAN 2022",
+
+        "title": "Lorem ipsum dolor sit amet",
+
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mi facilisis libero sollicitudin vulputate. Mauris facilisis vestibulum nisi, at viverra arcu interdum id.",
+
+        "more": "EN SAVOIR PLUS"
+    },
+    {
+        "image": "article2.jpeg",
+        "lien":"article1.html", 
+    
+        "date": "13 JAN 2022",
+
+        "title": "Lorem ipsum dolor sit amet",
+
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mi facilisis libero sollicitudin vulputate. Mauris facilisis vestibulum nisi, at viverra arcu interdum id.",
+
+        "more": "EN SAVOIR PLUS"
+    },
+    {
+        "image": "article1.jpg",
+        "lien":"article1.html", 
+    
+        "date": "13 JAN 2022",
+
+        "title": "Lorem ipsum dolor sit amet",
+
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mi facilisis libero sollicitudin vulputate. Mauris facilisis vestibulum nisi, at viverra arcu interdum id.",
+
+        "more": "EN SAVOIR PLUS"
+    },
+    {
+        "image": "article2.jpeg",
+        "lien":"article1.html", 
+    
+        "date": "13 JAN 2022",
+
+        "title": "Lorem ipsum dolor sit amet",
+
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mi facilisis libero sollicitudin vulputate. Mauris facilisis vestibulum nisi, at viverra arcu interdum id.",
+
+        "more": "EN SAVOIR PLUS"
+    }
+]

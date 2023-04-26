@@ -37,20 +37,21 @@ btn3.onclick = function() {
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
-  modal.style.display = "none";
-  header.classList.remove('blur');
-  main.classList.remove('blur');
-  footer.classList.remove('blur');
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
     modal.style.display = "none";
     header.classList.remove('blur');
     main.classList.remove('blur');
     footer.classList.remove('blur');
-  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+// Ne fonctionne pas pour le moment
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+        header.classList.remove('blur');
+        main.classList.remove('blur');
+        footer.classList.remove('blur');
+    }
 }
 
 // SECTION VALIDATION FORMULAIRE

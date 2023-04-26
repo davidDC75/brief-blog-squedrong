@@ -301,18 +301,15 @@ img.boutons_logo {
   height: 350px;
 }
 
-
- /* The Modal (background) */
+ /* POUR LA MODALE CONTACT */
 .modal {
     display: none;
 }
-
 
 .centrer {
     text-align: center;
 }
 
-  /* The Close Button */
 .close {
     color: #aaa;
     float: right;
@@ -329,11 +326,11 @@ img.boutons_logo {
 
 /* Régle pour formulaire de contact */
 .blur {
-  -webkit-filter: blur(1px);
-  -moz-filter: blur(1px);
-  -o-filter: blur(1px);
-  -ms-filter: blur(1px);
-  filter: blur(1px);
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
 }
 
 div#myModal {

@@ -1,148 +1,239 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Politique de Confidentialité</title>
-    <link rel="stylesheet" href="css/normalize.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/mentions_legales.css">
-</head>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mentions_legales.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
-        <nav>
-            <ul>
-                <li><a href="index.html" class="pageActu">BLOG</a></li>
-                <li><a href="cv.html">CV</a></li>
-                <li><a href="apropos.html">A PROPOS</a></li>
-                <li><a href="#" id="btnContact">CONTACT</a></li>
-            </ul>
-        </nav>
+      <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="pageActu">BLOG</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="apropos.html">A PROPOS</a></li>
+          <li><a href="#" id="btnContact">CONTACT</a></li>
+        </ul>
+      </nav>
     </header>
 
     <!-- POUR LE FORMULAIRE DE CONTACT -->
     <!-- The Modal -->
     <div id="myModal" class="modal">
-
-        <!-- Modal content -->
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <section>
-                <h4 class="centrer">Contactez moi</h4>
-                <form action="index.html" onsubmit="checkForm()" method="post" class="contact">
-                    <p>Veuillez remplir le formulaire. Tous les champs sont obligatoires.</p>
-                    <div class="contactRow">
-                        <label for="prenom" class="contact">Prénom : </label>
-                        <input type="text" id="prenom" name="prenom" maxlength="150" size="30" class="contact">
-                        <span class="error prenomError">Le prénom n'est pas valide.</span>
-                    </div>
-                    <div class="contactRow">
-                        <label for="nom" class="contact">Nom : </label>
-                        <input type="text" id="nom" name="nom" maxlength="150" size="30" class="contact">
-                        <span class="error nomError">Le nom n'est pas valide.</span>
-                    </div>
-                    <div class="contactRow">
-                        <label for="email" class="contact">Email : </label>
-                        <input type="email" id="email" name="email" maxlength="150" size="30" class="contact">
-                        <span class="error emailError">L'email n'est pas valide.</span>
-                    </div>
-                    <div class="contactRow">
-                        <label for="commentaire" class="contact">Votre commentaire : </label>
-                        <textarea id="commentaire" name="commentaire" class="contact"></textarea>
-                        <span class="error commentaireError">Le message n'est pas valide.</span>
-                    </div>
-                    <button type="submit" class="contact submitButton">Envoyer</button>
-                </form>
-            </section>
-        </div>
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <section>
+          <h4 class="centrer">Contactez moi</h4>
+          <form
+            action="index.html"
+            onsubmit="checkForm()"
+            method="post"
+            class="contact"
+          >
+            <p>
+              Veuillez remplir le formulaire. Tous les champs sont obligatoires.
+            </p>
+            <div class="contactRow">
+              <label for="prenom" class="contact">Prénom : </label>
+              <input
+                type="text"
+                id="prenom"
+                name="prenom"
+                maxlength="150"
+                size="30"
+                class="contact"
+              />
+              <span class="error prenomError">Le prénom n'est pas valide.</span>
+            </div>
+            <div class="contactRow">
+              <label for="nom" class="contact">Nom : </label>
+              <input
+                type="text"
+                id="nom"
+                name="nom"
+                maxlength="150"
+                size="30"
+                class="contact"
+              />
+              <span class="error nomError">Le nom n'est pas valide.</span>
+            </div>
+            <div class="contactRow">
+              <label for="email" class="contact">Email : </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                maxlength="150"
+                size="30"
+                class="contact"
+              />
+              <span class="error emailError">L'email n'est pas valide.</span>
+            </div>
+            <div class="contactRow">
+              <label for="commentaire" class="contact"
+                >Votre commentaire :
+              </label>
+              <textarea
+                id="commentaire"
+                name="commentaire"
+                class="contact"
+              ></textarea>
+              <span class="error commentaireError"
+                >Le message n'est pas valide.</span
+              >
+            </div>
+            <button type="submit" class="contact submitButton">Envoyer</button>
+          </form>
+        </section>
+      </div>
     </div>
 
     <main>
-        <h1 class="centrer">Politique de confidentialité</h1>
-        <div class="légal">
-            <p> sommes soucieux de la protection de vos données personnelles et respectons votre vie privée. Cette
-            politique de confidentialité vous explique quelles données personnelles nous collectons, comment nous les
-            utilisons et les protégeons.</p>
+      <h1 class="centrer">Politique de confidentialité</h1>
+      <div class="légal">
+        <p>
+          sommes soucieux de la protection de vos données personnelles et
+          respectons votre vie privée. Cette politique de confidentialité vous
+          explique quelles données personnelles nous collectons, comment nous
+          les utilisons et les protégeons.
+        </p>
 
-            <p>Collecte de données personnelles</p>
+        <p>Collecte de données personnelles</p>
 
-        <p>Nous collectons les données personnelles que vous nous fournissez volontairement lorsque vous vous abonnez à
-            notre newsletter, que vous laissez un commentaire sur notre blog ou que vous nous contactez via notre formulaire
-            de contact.</p> 
-            <p> données personnelles que nous pouvons collecter comprennent votre nom, votre adresse e-mail,
-            votre adresse IP et toute autre information que vous nous fournissez.</p>
+        <p>
+          Nous collectons les données personnelles que vous nous fournissez
+          volontairement lorsque vous vous abonnez à notre newsletter, que vous
+          laissez un commentaire sur notre blog ou que vous nous contactez via
+          notre formulaire de contact.
+        </p>
+        <p>
+          données personnelles que nous pouvons collecter comprennent votre nom,
+          votre adresse e-mail, votre adresse IP et toute autre information que
+          vous nous fournissez.
+        </p>
 
-            <p>Nous utilisons également des cookies pour collecter des données non personnelles, telles que les pages que vous
-            consultez sur notre blog, votre navigateur web et votre système d'exploitation. Les cookies sont des fichiers
-            texte qui sont stockés sur votre ordinateur lorsque vous visitez notre blog.</p>
+        <p>
+          Nous utilisons également des cookies pour collecter des données non
+          personnelles, telles que les pages que vous consultez sur notre blog,
+          votre navigateur web et votre système d'exploitation. Les cookies sont
+          des fichiers texte qui sont stockés sur votre ordinateur lorsque vous
+          visitez notre blog.
+        </p>
 
-            <p>Utilisation des données personnelles</p>
+        <p>Utilisation des données personnelles</p>
 
-        <p>Nous utilisons les données personnelles que nous collectons pour améliorer votre expérience sur notre blog et
-            pour vous fournir des informations pertinentes. Nous pouvons utiliser vos données personnelles pour :</p> 
+        <p>
+          Nous utilisons les données personnelles que nous collectons pour
+          améliorer votre expérience sur notre blog et pour vous fournir des
+          informations pertinentes. Nous pouvons utiliser vos données
+          personnelles pour :
+        </p>
 
-        <p>Vous envoyer des newsletters et des offres promotionnelles
-            Répondre à vos demandes via notre formulaire de contact
-            Analyser l'utilisation de notre blog et améliorer nos services
-            Nous ne vendons pas vos données personnelles à des tiers. Nous ne partageons vos données personnelles qu'avec
-            des prestataires de services tiers qui nous aident à fournir nos services.</p> 
+        <p>
+          Vous envoyer des newsletters et des offres promotionnelles Répondre à
+          vos demandes via notre formulaire de contact Analyser l'utilisation de
+          notre blog et améliorer nos services Nous ne vendons pas vos données
+          personnelles à des tiers. Nous ne partageons vos données personnelles
+          qu'avec des prestataires de services tiers qui nous aident à fournir
+          nos services.
+        </p>
 
-            <p>Protection des données personnelles</p>
+        <p>Protection des données personnelles</p>
 
-        <p>Nous prenons des mesures pour protéger vos données personnelles contre la perte, le vol et l'utilisation
-            abusive. Nous utilisons des protocoles de sécurité pour protéger vos données personnelles contre l'accès non
-            autorisé.</p> 
+        <p>
+          Nous prenons des mesures pour protéger vos données personnelles contre
+          la perte, le vol et l'utilisation abusive. Nous utilisons des
+          protocoles de sécurité pour protéger vos données personnelles contre
+          l'accès non autorisé.
+        </p>
 
-        <p>Conservation des données personnelles</p> 
+        <p>Conservation des données personnelles</p>
 
-        <p>Nous ne conservons vos données personnelles que le temps nécessaire pour remplir les finalités pour lesquelles
-            elles ont été collectées.</p>
+        <p>
+          Nous ne conservons vos données personnelles que le temps nécessaire
+          pour remplir les finalités pour lesquelles elles ont été collectées.
+        </p>
 
-            <p>Droits des utilisateurs</p>
+        <p>Droits des utilisateurs</p>
 
-        <p>Vous avez le droit de demander l'accès, la rectification ou la suppression de vos données personnelles que nous
-            avons collectées. Vous pouvez également vous opposer à l'utilisation de vos données personnelles ou demander la
-            limitation de leur utilisation. Pour exercer ces droits, veuillez nous contacter via notre formulaire de
-            contact.</p> 
+        <p>
+          Vous avez le droit de demander l'accès, la rectification ou la
+          suppression de vos données personnelles que nous avons collectées.
+          Vous pouvez également vous opposer à l'utilisation de vos données
+          personnelles ou demander la limitation de leur utilisation. Pour
+          exercer ces droits, veuillez nous contacter via notre formulaire de
+          contact.
+        </p>
 
-        <p>Modifications de la politique de confidentialité</p> 
+        <p>Modifications de la politique de confidentialité</p>
 
-        <p>Nous nous réservons le droit de modifier cette politique de confidentialité à tout moment. Toute modification
-            sera publiée sur cette page.</p> 
+        <p>
+          Nous nous réservons le droit de modifier cette politique de
+          confidentialité à tout moment. Toute modification sera publiée sur
+          cette page.
+        </p>
 
-        <p>Contactez-nous</p> 
+        <p>Contactez-nous</p>
 
-            <p>Si vous avez des questions ou des préoccupations concernant notre politique de confidentialité, veuillez nous
-            contacter via notre formulaire de contact.</p>
-        </div>
+        <p>
+          Si vous avez des questions ou des préoccupations concernant notre
+          politique de confidentialité, veuillez nous contacter via notre
+          formulaire de contact.
+        </p>
+      </div>
     </main>
     <footer>
-        <div class="placement">
-            <ul class="reseaux">
-                <li class="bouttons"><button onClick="document.location.replace('https://twitter.com')" class="twitter"><span>TWITTER</span></button></li>
-                <li class="bouttons"><button onClick="document.location.replace('https://fr.linkedin.com')" class="linkedin"><span>LINKEDIN</span></button></li>
-                <li class="bouttons"><button onClick="document.location.replace('https://medium.com')" class="medium"><span>MEDIUM</span></button></li>
-            </ul>
-            
-            
+      <div class="placement">
+        <ul class="reseaux">
+          <li class="bouttons">
+            <button
+              onClick="document.location.replace('https://twitter.com')"
+              class="twitter"
+            >
+              <span>TWITTER</span>
+            </button>
+          </li>
+          <li class="bouttons">
+            <button
+              onClick="document.location.replace('https://fr.linkedin.com')"
+              class="linkedin"
+            >
+              <span>LINKEDIN</span>
+            </button>
+          </li>
+          <li class="bouttons">
+            <button
+              onClick="document.location.replace('https://medium.com')"
+              class="medium"
+            >
+              <span>MEDIUM</span>
+            </button>
+          </li>
+        </ul>
 
-            <ul class="mentionlegal">
-                <li><a href=mentions_legales.html>Mentions légales</a></li>
-                <li><a href="politiqueDeConfidentialite.html">Politique de confidentialité</a></li>
-                <li><a href="mentions_legales.html">Politique des cookies</a> </li>
-            </ul>
+        <ul class="mentionlegal">
+          <li><a href="mentions_legales.html">Mentions légales</a></li>
+          <li>
+            <a href="politiqueDeConfidentialite.html"
+              >Politique de confidentialité</a
+            >
+          </li>
+          <li><a href="mentions_legales.html">Politique des cookies</a></li>
+        </ul>
 
-            <ul class="recrut">
-                <li><a href="#" id="btnContact2">Recrutement</a></li>
-                <li><a href="#" id="btnContact3">Stage</a></li>
-            </ul>
-        </div>
+        <ul class="recrut">
+          <li><a href="#" id="btnContact2">Recrutement</a></li>
+          <li><a href="#" id="btnContact3">Stage</a></li>
+        </ul>
+      </div>
     </footer>
     <script src="js/contact.js"></script>
-</body>
-
+  </body>
 </html>

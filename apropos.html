@@ -1,122 +1,217 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
     <title>À propos du blog de Squedrong</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
-        <nav>
-            <ul>
-            <li><a href="index.html">BLOG</a></li>
-            <li><a href="cv.html">CV</a></li>
-            <li><a href="apropos.html" class="pageActu">A PROPOS</a></li>
-            <li><a href="#" id="btnContact">CONTACT</a></li>
-            </ul>
-        </nav>
+      <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">BLOG</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="apropos.html" class="pageActu">A PROPOS</a></li>
+          <li><a href="#" id="btnContact">CONTACT</a></li>
+        </ul>
+      </nav>
     </header>
 
     <!-- POUR LE FORMULAIRE DE CONTACT -->
     <!-- The Modal -->
     <div id="myModal" class="modal">
-
-        <!-- Modal content -->
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <section>
-                <h1>Contactez moi</h1>
-                <form action="index.html" onsubmit="checkForm()" method="post" class="contact">
-                    <p>Veuillez remplir le formulaire. Tous les champs sont obligatoires.</p>
-                    <div class="contactRow">
-                        <label for="prenom" class="contact">Prénom : </label>
-                        <input type="text" id="prenom" name="prenom" maxlength="150" size="30" class="contact">
-                        <span class="error prenomError">Le prénom n'est pas valide.</span>
-                    </div>
-                    <div class="contactRow">
-                        <label for="nom" class="contact">Nom : </label>
-                        <input type="text" id="nom" name="nom" maxlength="150" size="30" class="contact">
-                        <span class="error nomError">Le nom n'est pas valide.</span>
-                    </div>
-                    <div class="contactRow">
-                        <label for="email" class="contact">Email : </label>
-                        <input type="email" id="email" name="email" maxlength="150" size="30" class="contact">
-                        <span class="error emailError">L'email n'est pas valide.</span>
-                    </div>
-                    <div class="contactRow">
-                        <label for="commentaire" class="contact">Votre commentaire : </label>
-                        <textarea id="commentaire" name="commentaire" class="contact"></textarea>
-                        <span class="error commentaireError">Le message n'est pas valide.</span>
-                    </div>
-                    <button type="submit" class="contact submitButton">Envoyer</button>
-                </form>
-            </section>
-        </div>
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <section>
+          <h1>Contactez moi</h1>
+          <form
+            action="index.html"
+            onsubmit="checkForm()"
+            method="post"
+            class="contact"
+          >
+            <p>
+              Veuillez remplir le formulaire. Tous les champs sont obligatoires.
+            </p>
+            <div class="contactRow">
+              <label for="prenom" class="contact">Prénom : </label>
+              <input
+                type="text"
+                id="prenom"
+                name="prenom"
+                maxlength="150"
+                size="30"
+                class="contact"
+              />
+              <span class="error prenomError">Le prénom n'est pas valide.</span>
+            </div>
+            <div class="contactRow">
+              <label for="nom" class="contact">Nom : </label>
+              <input
+                type="text"
+                id="nom"
+                name="nom"
+                maxlength="150"
+                size="30"
+                class="contact"
+              />
+              <span class="error nomError">Le nom n'est pas valide.</span>
+            </div>
+            <div class="contactRow">
+              <label for="email" class="contact">Email : </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                maxlength="150"
+                size="30"
+                class="contact"
+              />
+              <span class="error emailError">L'email n'est pas valide.</span>
+            </div>
+            <div class="contactRow">
+              <label for="commentaire" class="contact"
+                >Votre commentaire :
+              </label>
+              <textarea
+                id="commentaire"
+                name="commentaire"
+                class="contact"
+              ></textarea>
+              <span class="error commentaireError"
+                >Le message n'est pas valide.</span
+              >
+            </div>
+            <button type="submit" class="contact submitButton">Envoyer</button>
+          </form>
+        </section>
+      </div>
     </div>
 
     <main>
-        <div class="a_propos">
-            <div class="introduct">
-                <h1>À propos de moi</h1>
+      <div class="a_propos">
+        <div class="introduct">
+          <h1>À propos de moi</h1>
 
-                <p class="apropos"> <img src="images/squedrong.PNG" alt="photo de squedrong" class="img_apropos">Bonjour et bienvenue sur mon
-                    blog ! Je m'appelle Squedrong et je suis un passionné de web design. Depuis que j'ai découvert cet
-                    univers fascinant, j'ai décidé de consacrer mon temps et mon énergie à en apprendre toujours plus sur
-                    les dernières tendances et les meilleures pratiques.</p>
-                <p class="apropos">Je suis convaincu que le web design est une discipline à la fois créative et technique,
-                    qui demande à la fois de la rigueur et de l'imagination. Pour moi, il s'agit avant tout de créer des
-                    expériences utilisateur uniques et mémorables, qui répondent aux besoins et aux attentes des
-                    internautes.</p>
-                <p class="apropos">Dans ce blog, j'ai pour ambition de partager avec vous mes connaissances et mes
-                    réflexions sur le web design. J'espère que vous trouverez ici des informations utiles et inspirantes,
-                    qui vous aideront à créer des sites web exceptionnels et à vous démarquer dans ce domaine en constante
-                    évolution.</p>
-                <p class="apropos">Merci de votre visite et n'hésitez pas à me contacter si vous avez des questions ou des
-                    suggestions pour mon blog !</p>
-                <span class="signature">squedrong</span>
+          <p class="apropos">
+            <img
+              src="images/squedrong.PNG"
+              alt="photo de squedrong"
+              class="img_apropos"
+            />Bonjour et bienvenue sur mon blog ! Je m'appelle Squedrong et je
+            suis un passionné de web design. Depuis que j'ai découvert cet
+            univers fascinant, j'ai décidé de consacrer mon temps et mon énergie
+            à en apprendre toujours plus sur les dernières tendances et les
+            meilleures pratiques.
+          </p>
+          <p class="apropos">
+            Je suis convaincu que le web design est une discipline à la fois
+            créative et technique, qui demande à la fois de la rigueur et de
+            l'imagination. Pour moi, il s'agit avant tout de créer des
+            expériences utilisateur uniques et mémorables, qui répondent aux
+            besoins et aux attentes des internautes.
+          </p>
+          <p class="apropos">
+            Dans ce blog, j'ai pour ambition de partager avec vous mes
+            connaissances et mes réflexions sur le web design. J'espère que vous
+            trouverez ici des informations utiles et inspirantes, qui vous
+            aideront à créer des sites web exceptionnels et à vous démarquer
+            dans ce domaine en constante évolution.
+          </p>
+          <p class="apropos">
+            Merci de votre visite et n'hésitez pas à me contacter si vous avez
+            des questions ou des suggestions pour mon blog !
+          </p>
+          <span class="signature">squedrong</span>
 
-
-                <div class="bouttons">
-                    <button onClick="document.location.replace('https://twitter.com')" class="twitter"><img src="images/twitter.PNG" alt="" class="boutons_logo"><span>TWITTER</span></button>
-                    <button onClick="document.location.replace('https://fr.linkedin.com')" class="linkedin"><img src="images/linkedin.PNG" alt="" class="boutons_logo"><span>LINKEDIN</span></button>
-                    <button onClick="document.location.replace('https://medium.com')" class="medium"><img src="images/medium.PNG" alt="" class="boutons_logo"><span>MEDIUM</span></button>
-                </div>
-            </div>
-            <div class="illustration">
-                <img class="box quatre" src="images/illustration.png" alt="illustration">
-            </div>
+          <div class="bouttons">
+            <button
+              onClick="document.location.replace('https://twitter.com')"
+              class="twitter"
+            >
+              <img src="images/twitter.PNG" alt="" class="boutons_logo" /><span
+                >TWITTER</span
+              >
+            </button>
+            <button
+              onClick="document.location.replace('https://fr.linkedin.com')"
+              class="linkedin"
+            >
+              <img src="images/linkedin.PNG" alt="" class="boutons_logo" /><span
+                >LINKEDIN</span
+              >
+            </button>
+            <button
+              onClick="document.location.replace('https://medium.com')"
+              class="medium"
+            >
+              <img src="images/medium.PNG" alt="" class="boutons_logo" /><span
+                >MEDIUM</span
+              >
+            </button>
+          </div>
         </div>
+        <div class="illustration">
+          <img
+            class="box quatre"
+            src="images/illustration.png"
+            alt="illustration"
+          />
+        </div>
+      </div>
     </main>
     <footer>
-        <div class="placement">
-            <ul class="reseaux">
-                <li class="bouttons"><button onClick="document.location.replace('https://twitter.com')" class="twitter"><span>TWITTER</span></button></li>
-                <li class="bouttons"><button onClick="document.location.replace('https://fr.linkedin.com')" class="linkedin"><span>LINKEDIN</span></button></li>
-                <li class="bouttons"><button onClick="document.location.replace('https://medium.com')" class="medium"><span>MEDIUM</span></button></li>
-            </ul>
-            
-            
+      <div class="placement">
+        <ul class="reseaux">
+          <li class="bouttons">
+            <button
+              onClick="document.location.replace('https://twitter.com')"
+              class="twitter"
+            >
+              <span>TWITTER</span>
+            </button>
+          </li>
+          <li class="bouttons">
+            <button
+              onClick="document.location.replace('https://fr.linkedin.com')"
+              class="linkedin"
+            >
+              <span>LINKEDIN</span>
+            </button>
+          </li>
+          <li class="bouttons">
+            <button
+              onClick="document.location.replace('https://medium.com')"
+              class="medium"
+            >
+              <span>MEDIUM</span>
+            </button>
+          </li>
+        </ul>
 
-            <ul class="mentionlegal">
-                <li><a href=mentions_legales.html>Mentions légales</a></li>
-                <li><a href="politiqueDeConfidentialite.html">Politique de confidentialité</a></li>
-                <li><a href="mentions_legales.html">Politique des cookies</a> </li>
-            </ul>
+        <ul class="mentionlegal">
+          <li><a href="mentions_legales.html">Mentions légales</a></li>
+          <li>
+            <a href="politiqueDeConfidentialite.html"
+              >Politique de confidentialité</a
+            >
+          </li>
+          <li><a href="mentions_legales.html">Politique des cookies</a></li>
+        </ul>
 
-            <ul class="recrut">
-                <li><a href="#" id="btnContact2">Recrutement</a></li>
-                <li><a href="#" id="btnContact3">Stage</a></li>
-            </ul>
-        </div>
+        <ul class="recrut">
+          <li><a href="#" id="btnContact2">Recrutement</a></li>
+          <li><a href="#" id="btnContact3">Stage</a></li>
+        </ul>
+      </div>
     </footer>
     <script src="js/contact.js"></script>
-</body>
-
+  </body>
 </html>

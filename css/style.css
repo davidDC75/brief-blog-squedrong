@@ -120,13 +120,8 @@ header nav ul li a:visited {
   color: #000;
 }
 header nav ul li a.pageActu {
-<<<<<<< HEAD
   color: #5a47ab;
   font-weight: bold;
-=======
-    color: #6f1e7e;
-    font-weight: 600;
->>>>>>> 93f4192c964d2b59ec0545c18660d97231f44d36
 }
 
 /* partie pour l'affichage de la liste des articles dans index.html */
@@ -171,30 +166,6 @@ header nav ul li a.pageActu {
 }
 
 /* animation article */
-<<<<<<< HEAD
-=======
-.article-preview-index-1 {
-  animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-}
-
-.article-preview-index-2 {
-  animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-}
-
-.article-preview-index-3 {
-  animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  animation-delay: 600ms;
-}
-
-.article-preview-index-4 {
-  animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  animation-delay: 600ms;
-}
-.article-preview-index-5 {
-  animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-}
-
->>>>>>> 929d366cbbe50bc9a853f0da9489fc53b0efbc72
 .article-preview-index-6 {
   animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }

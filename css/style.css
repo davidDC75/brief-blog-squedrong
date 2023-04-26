@@ -301,24 +301,11 @@ img.boutons_logo {
   height: 350px;
 }
 
-/* The Modal (background) */
-/* .modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.4);
-} */
 
  /* The Modal (background) */
- .modal {
+.modal {
     display: none;
- }
+}
 
 
 .centrer {
@@ -341,9 +328,16 @@ img.boutons_logo {
 }
 
 /* Régle pour formulaire de contact */
+.blur {
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px);
+  filter: blur(1px);
+}
+
 div#myModal {
     max-width: 600px;
-    width: 100%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -409,7 +403,7 @@ form .submitButton[type="submit"]:active {
 }
 
 section form div.contactRow .error {
-  margin: 5px 0px 5px 25px;
+  margin: 5px 0 5px 0;
   visibility: hidden;
 }
 

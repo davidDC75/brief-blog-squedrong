@@ -1,6 +1,9 @@
 // SECTION MODAL
 // Get the modal
 var modal = document.getElementById("myModal");
+var header = document.getElementById("header");
+var main = document.getElementById("main");
+var footer = document.getElementById("footer");
 
 // Get the button that opens the modal
 var btn = document.getElementById("btnContact");
@@ -13,25 +16,40 @@ var span = document.getElementsByClassName("close")[0];
 // When the user clicks on the button, open the modal
 btn.onclick = function() {
   modal.style.display = "block";
+  header.classList.add('blur');
+  main.classList.add('blur');
+  footer.classList.add('blur');
 }
 
 btn2.onclick = function() {
     modal.style.display = "block";
+    header.classList.add('blur');
+    main.classList.add('blur');
+    footer.classList.add('blur');
 }
 
 btn3.onclick = function() {
     modal.style.display = "block";
+    header.classList.add('blur');
+    main.classList.add('blur');
+    footer.classList.add('blur');
 }
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modal.style.display = "none";
+  header.classList.remove('blur');
+  main.classList.remove('blur');
+  footer.classList.remove('blur');
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
+    header.classList.remove('blur');
+    main.classList.remove('blur');
+    footer.classList.remove('blur');
   }
 }
 

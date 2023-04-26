@@ -46,25 +46,23 @@ h4 {
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
-  margin-bottom: 1.1cm;
+  margin-bottom: 20px;
 }
 
 h5 {
   color: #3a0ca3;
-  font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1.1cm;
-  margin-bottom: 1.1cm;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 h6 {
   color: #3a0ca3;
-  font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
-  margin-top: 1.1cm;
-  margin-bottom: 1.1cm;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 /* Partie pour le header */
@@ -301,31 +299,15 @@ img.boutons_logo {
   height: 350px;
 }
 
-/* The Modal (background) */
-/* .modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.4);
-} */
-
- /* The Modal (background) */
- .modal {
+ /* POUR LA MODALE CONTACT */
+.modal {
     display: none;
- }
-
+}
 
 .centrer {
     text-align: center;
 }
 
-  /* The Close Button */
 .close {
     color: #aaa;
     float: right;
@@ -340,10 +322,17 @@ img.boutons_logo {
     cursor: pointer;
 }
 
-/* Régle pour formulaire de contact */
+
+.blur {
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}
+
 div#myModal {
     max-width: 600px;
-    width: 100%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -409,7 +398,7 @@ form .submitButton[type="submit"]:active {
 }
 
 section form div.contactRow .error {
-  margin: 5px 0px 5px 25px;
+  margin: 5px 0 5px 0;
   visibility: hidden;
 }
 

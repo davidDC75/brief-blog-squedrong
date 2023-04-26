@@ -1,24 +1,24 @@
-// SECTION MODAL
-// Get the modal
-var modal = document.getElementById("myModal");
-var header = document.getElementById("header");
-var main = document.getElementById("main");
-var footer = document.getElementById("footer");
+var modal = document.getElementById("myModal"); // Le modal
+var header = document.getElementById("header"); // Le header
+var main = document.getElementById("main"); // Le main
+var footer = document.getElementById("footer"); // Le footer
 
-// Get the button that opens the modal
+// Les boutons pour ouvrir le modal
 var btn = document.getElementById("btnContact");
 var btn2 = document.getElementById("btnContact2");
 var btn3 = document.getElementById("btnContact3");
 
-// Get the <span> element that closes the modal
+// Le bouton close de la modal
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on the button, open the modal
+// Ajout d'écoute d'événement pour les boutons d'ouverture de la modal
 btn.onclick = function() {
-  modal.style.display = "block";
-  header.classList.add('blur');
-  main.classList.add('blur');
-  footer.classList.add('blur');
+    // On l'affiche
+    modal.style.display = "block";
+    // On applique un effet de flou
+    header.classList.add('blur');
+    main.classList.add('blur');
+    footer.classList.add('blur');
 }
 
 btn2.onclick = function() {
@@ -35,7 +35,7 @@ btn3.onclick = function() {
     footer.classList.add('blur');
 }
 
-// When the user clicks on <span> (x), close the modal
+// Gestion de la fermeture du modal en cliquant sur le bouton close
 span.onclick = function() {
     modal.style.display = "none";
     header.classList.remove('blur');
@@ -43,7 +43,7 @@ span.onclick = function() {
     footer.classList.remove('blur');
 }
 
-// When the user clicks anywhere outside of the modal, close it
+// Gestion de la fermeture de la modal en cliquant à l'extérieur de cette dernière
 // Ne fonctionne pas pour le moment
 window.onclick = function(event) {
     if (event.target == modal) {
@@ -55,21 +55,27 @@ window.onclick = function(event) {
 }
 
 // SECTION VALIDATION FORMULAIRE
+
+// Regex pour format email
 patternEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
+// Fonction permettant d'injecter du style dans des élements
 function css(element, style) {
     for (const property in style)
         element.style[property] = style[property];
      return;
 }
 
+// Fonction qui check le formulaire
 function checkForm() {
+    // On récupére les élements du formulaire dans des variables
     prenom=document.getElementById('prenom');
     nom=document.getElementById('nom');
     email=document.getElementById('email');
     commentaire=document.getElementById('commentaire');
-    error=false;
+    error=false; // Notre flag pour la gestion d'erreur
 
+    // Vérification du prénom
     if (prenom.value=='' || prenom.value.length>150) {
         css(document.querySelector('.prenomError'),{
             'visibility': 'visible',
@@ -89,6 +95,7 @@ function checkForm() {
         });
     }
 
+    // Vérification du nom
     if (nom.value=='' || nom.value.length>150) {
         css(document.querySelector('.nomError'),{
             'visibility': 'visible'
@@ -108,6 +115,7 @@ function checkForm() {
         });
     }
 
+    // Vérification de l'email
     if (email.value=='' || nom.value.length>30 || email.value.match(patternEmail)== null) {
         css(document.querySelector('.emailError'),{
             'visibility': 'visible'
@@ -127,6 +135,7 @@ function checkForm() {
         });
     }
 
+    // Vérification du commentaire
     if (commentaire.value=='' || commentaire.value.length>150) {
         css(document.querySelector('.commentaireError'),{
             'visibility': 'visible'
@@ -145,8 +154,10 @@ function checkForm() {
             'color': 'black'
         });
     }
+
+    // Gestion des erreurs
     if (error) {
-        event.preventDefault();
+        event.preventDefault(); // Si erreur alors on envoie pas le formulaire
         return false;
     }
     return true;

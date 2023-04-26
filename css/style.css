@@ -165,28 +165,6 @@ header nav ul li a.pageActu {
 }
 
 /* animation article */
-.article-preview-index-1 {
-    animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-}
-
-.article-preview-index-2 {
-    animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-}
-
-.article-preview-index-3 {
-    animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    animation-delay: 600ms;
-}
-
-.article-preview-index-4 {
-    animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    animation-delay: 600ms;
-}
-.article-preview-index-5 {
-    animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-}
-
-
 .article-preview-index-6 {
     animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
@@ -325,87 +303,91 @@ img.boutons_logo {
 
  /* The Modal (background) */
  .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: hidden; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
+    display: none;
+ }
 
-  /* Modal Content/Box */
-  .modal-content {
-    background-color: #fefefe;
-    margin: 5% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
-  }
 
-  .centrer {
+.centrer {
     text-align: center;
-  }
-
-  .modal-content section {
-    margin: 10px auto 10px auto;
-  }
+}
 
   /* The Close Button */
-  .close {
+.close {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
-  }
+}
 
-  .close:hover,
-  .close:focus {
+.close:hover,
+.close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
-  }
-
-/* Régle pour formulaire de contact */
-form {
-    width: 60%;
-    font-family: "Montserrat", sans-serif;
-    font-size: 1rem;
-    margin: 0px auto 0px auto;
 }
 
-label.contact {
-    display: block;
-    width: 20%;
-    float: left;
+/* Régle pour formulaire de contact */
+div#myModal {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    background: #F9F9F9;
+    padding: 25px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
 section form div.contactRow {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
 }
 
 section form div.contactRow input.contact {
-    font-size: 1rem;
-    margin: 5px 0 5px 0;
-    border: 1px solid black;
-    background-color: #CCCCCC;
-    width: 325px;
-    border-radius: 3px;
+    width: 93%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 ;
+    padding: 10px;
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
 }
 
 section form div.contactRow textarea.contact {
-    font-size: 1rem;
-    margin: 5px 0 5px 0;
-    border: 1px solid black;
-    background-color: #CCCCCC;
-    border-radius: 3px;
-    width: 325px;
-    height: 150px;
+    height: 100px;
+    width: 95%;
+    resize: none;
+}
+
+form .submitButton {
+    cursor: pointer;
+    width: 99%;
+    border: none;
+    background: #D05270;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+form .submitButton:hover {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+    background: #bb3f5c;
+}
+
+form .submitButton[type="submit"]:active {
+    background: #bb3f5c;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
 }
 
 section form div.contactRow .error {

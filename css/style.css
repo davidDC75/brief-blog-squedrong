@@ -119,8 +119,8 @@ header nav ul li a:visited {
     color: #000;
 }
 header nav ul li a.pageActu {
-    color: #7158e0;
-    font-weight: bold;
+    color: #6f1e7e;
+    font-weight: 600;
 }
 
 /* partie pour l'affichage de la liste des articles dans index.html */

@@ -13,7 +13,7 @@ listeArticle = "";
 
 // La fonction article génére un article seulement
 function article(image, lien, date, title, description, more) {
-    return `<div class="article-preview-index-6">
+    return `<div class="article-preview-grid">
                     <a href="${lien}"><img src="images/${image}" alt="article"></a>
                     <p class="post-date">${date}</p>
                     <a href="${lien}"><h3>${title}</h3></a>

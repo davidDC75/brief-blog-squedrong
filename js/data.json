@@ -3,11 +3,11 @@
         "image": "article1.jpg",
         "lien":"article1.html", 
     
-        "date": "13 JAN 2022",
+        "date": "27 AVR 2023",
 
-        "title": "Lorem ipsum dolor sit amet",
+        "title": "L'importance du Web design",
 
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mi facilisis libero sollicitudin vulputate. Mauris facilisis vestibulum nisi, at viverra arcu interdum id.",
+        "description": "Bienvenue sur cet article dédié au web design ! Aujourd'hui, nous allons explorer les bases.",
 
         "more": "EN SAVOIR PLUS"
     },
@@ -15,11 +15,11 @@
         "image": "article2.jpeg",
         "lien":"article1.html", 
     
-        "date": "13 JAN 2022",
+        "date": "26 AVR 2023",
 
-        "title": "Lorem ipsum dolor sit amet",
+        "title": "Javascript",
 
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mi facilisis libero sollicitudin vulputate. Mauris facilisis vestibulum nisi, at viverra arcu interdum id.",
+        "description": "Bienvenue sur cet article dédié à JavaScript ! Dans cet article, nous allons explorer les bases.",
 
         "more": "EN SAVOIR PLUS"
     },
@@ -27,11 +27,11 @@
         "image": "article1.jpg",
         "lien":"article1.html", 
     
-        "date": "13 JAN 2022",
+        "date": "17 AVR 2023",
 
-        "title": "Lorem ipsum dolor sit amet",
+        "title": "C'est quoi le CSS ? ",
 
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mi facilisis libero sollicitudin vulputate. Mauris facilisis vestibulum nisi, at viverra arcu interdum id.",
+        "description": "Bienvenue sur cet article dédié à CSS (Cascading Style Sheets) ! Aujourd'hui, nous allons explorer les bases.",
 
         "more": "EN SAVOIR PLUS"
     },
@@ -39,11 +39,11 @@
         "image": "article2.jpeg",
         "lien":"article1.html", 
     
-        "date": "13 JAN 2022",
+        "date": "6 AVR 2023",
 
-        "title": "Lorem ipsum dolor sit amet",
+        "title": "Faisons un formulaire!",
 
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mi facilisis libero sollicitudin vulputate. Mauris facilisis vestibulum nisi, at viverra arcu interdum id.",
+        "description": "Bienvenue sur cet article dédié à la création de formulaires ! ",
 
         "more": "EN SAVOIR PLUS"
     },
@@ -51,11 +51,11 @@
         "image": "article1.jpg",
         "lien":"article1.html", 
     
-        "date": "13 JAN 2022",
+        "date": "3 AVR 2023",
 
-        "title": "Lorem ipsum dolor sit amet",
+        "title": "Réalisation site html",
 
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mi facilisis libero sollicitudin vulputate. Mauris facilisis vestibulum nisi, at viverra arcu interdum id.",
+        "description": "Dans cet article, nous allons réaliser un site en html ! ",
 
         "more": "EN SAVOIR PLUS"
     },
@@ -63,11 +63,11 @@
         "image": "article2.jpeg",
         "lien":"article1.html", 
     
-        "date": "13 JAN 2022",
+        "date": "31 MAR 2023",
 
-        "title": "Lorem ipsum dolor sit amet",
+        "title": "Mon site, mon métier",
 
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mi facilisis libero sollicitudin vulputate. Mauris facilisis vestibulum nisi, at viverra arcu interdum id.",
+        "description": "Bienvenue sur ma page ! ",
 
         "more": "EN SAVOIR PLUS"
     }

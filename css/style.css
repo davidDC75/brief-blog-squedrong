@@ -214,7 +214,7 @@ p.apropos {
   margin: 0px 20px 10px 0px;
 }
 
-button.twitter {
+a.twitter {
   background-color: #03a9f4;
   border: none;
   color: white;
@@ -226,7 +226,7 @@ button.twitter {
   justify-content: center;
 }
 
-button.linkedin {
+a.linkedin {
   background-color: #007ab9;
   border: none;
   color: white;
@@ -238,7 +238,7 @@ button.linkedin {
   justify-content: center;
 }
 
-button.medium {
+a.medium {
   background-color: #000000;
   border: none;
   color: white;

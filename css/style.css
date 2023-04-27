@@ -416,7 +416,7 @@ footer div.placement ul {
   list-style: none;
 }
 
-footer div.placement ul.reseaux li.bouttons button {
+footer div.placement ul.reseaux li.bouttons a {
   display: block;
   text-align: center;
   height: 20px;

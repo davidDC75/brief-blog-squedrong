@@ -486,6 +486,9 @@ footer div.placement ul.reseaux li.bouttons a {
 }
 
 footer div.placement ul.reseaux li.bouttons a {
+  display:flex;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
 }
 

@@ -493,19 +493,6 @@ footer {
   margin-top: 20px;
   border-radius: 0px 0px 10px 10px;
   background-color: #d05270;
-  animation: slide-in-bottom 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  animation-delay: 3.5s;
-}
-
-@keyframes slide-in-bottom {
-  0% {
-    transform: translateY(1000px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
 }
 
 footer div.placement ul.mentionlegal li a {

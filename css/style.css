@@ -472,7 +472,10 @@ footer div.placement ul {
 }
 
 footer div.placement ul.reseaux li.bouttons a {
-  display: block;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
   text-align: center;
   height: 20px;
   width: 80px;
@@ -485,16 +488,8 @@ footer div.placement ul.reseaux li.bouttons a {
   color: whitesmoke;
 }
 
-footer div.placement ul.reseaux li.bouttons a {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-}
-
 footer {
   margin-top: 20px;
-  border-radius: 0px 0px 10px 10px;
   background-color: #d05270;
 }
 
